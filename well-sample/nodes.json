@@ -1,0 +1,177 @@
+[
+    {
+        "id": "http://gswaprez.australiaeast.azurecontainer.io/dataset/gswa-dataset/collections/wells/items/W000835",
+        "label": "W000835",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "minimum": 50,
+            "maximum": 50
+        }
+    },
+    {
+        "id": "http://gswaprez.australiaeast.azurecontainer.io/dataset/wa-geofeatures/collections/basins/items/b24",
+        "label": "B24",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "minimum": 50,
+            "maximum": 50
+        }
+    },
+    {
+        "id": "subbasin",
+        "label": "B106",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "minimum": 50,
+            "maximum": 50
+        }
+    },
+    {
+        "id": "sample",
+        "label": "C19218",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "minimum": 50,
+            "maximum": 50
+        }
+    },
+    {
+        "id": "sampleclass",
+        "label": "Sample",
+        "shape": "ellipse",
+        "color": "#E6C62D",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "wellclass",
+        "label": "Well",
+        "shape": "ellipse",
+        "color": "#E6C62D",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "agentclass",
+        "label": "Agent",
+        "shape": "ellipse",
+        "color": "#E6C62D",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "featureclass",
+        "label": "Feature",
+        "shape": "ellipse",
+        "color": "#E6C62D",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "sampleid",
+        "label": "C19218",
+        "shape": "box",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "basinname",
+        "label": "Northern Carnarvon Basin",
+        "shape": "box",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "subbasinname",
+        "label": "Dixon Subbasin",
+        "shape": "box",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "wellname",
+        "label": "North Rankine 2",
+        "shape": "box",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "operator",
+        "label": " ",
+        "shape": "triangle",
+        "color":"#F6C7B2",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "operatorname",
+        "label": "Woodside Pty Ltd",
+        "shape": "box",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "sampletype",
+        "label": "Slide",
+        "shape": "ellipse",
+        "color": "#EF8423",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "materialtype",
+        "label": "Ditch Cutting",
+        "shape": "ellipse",
+        "color": "#EF8423",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "analysistype",
+        "label": "Petrology",
+        "shape": "ellipse",
+        "color": "#EF8423",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "status",
+        "label": "Operating",
+        "shape": "ellipse",
+        "color": "#EF8423",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    }
+]
