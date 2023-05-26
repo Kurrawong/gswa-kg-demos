@@ -30,8 +30,9 @@
     <h2>Watchpoints</h2>
     <ul>
         <li>is sample of: <code>Sample</code> &rarr; <code>Site</code> &rarr; <code>Feature</code></li>
-        <li>All <code>Feature</code> instances have <code>Geometry</code> (not shown for simplicity)</li>
-        <li>Instances are classified using codelist terms now in online vocabularies, e.g. the Well's <code>status</code>: <code><a href="http://gswaprez.australiaeast.azurecontainer.io/vocab/bh-status/o">ex:ProducingOilWell</a></li></code>
+        <li>All <code>Feature</code> instances have a <code>Geometry</code> (not shown for simplicity)</li>
+        <li>Some features are listed online (test mode), e.g. the Well: <a href="http://gswaprez.australiaeast.azurecontainer.io/dataset/gswa-dataset/collections/wells/items/W000835">W000835</a></li>
+        <li>The Well is classified using codelist terms in online vocabularies, e.g. the Well's <code>status</code>: <code><a href="http://gswaprez.australiaeast.azurecontainer.io/vocab/bh-status/o">ex:ProducingOilWell</a></code></li>
     </ul>
 </div>
 <div style="grid-column: 2">
@@ -46,6 +47,7 @@ ex:C19218
 <a href="http://gswaprez.australiaeast.azurecontainer.io/dataset/gswa-dataset/collections/wells/items/W000835">site:W000835</a>
     a ex:Well , geo:Feature ;
     rdfs:label "North Rankin 2" ;
+    ge:sfWithin <a href="http://gswaprez.australiaeast.azurecontainer.io/dataset/wa-geofeatures/collections/basins/items/b24">ex:b24</a>
     ex:status <a href="http://gswaprez.australiaeast.azurecontainer.io/vocab/bh-status/o">ex:ProducingOilWell</a> ;
 .
     </pre>

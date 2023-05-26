@@ -5,8 +5,8 @@
         "shape": "ellipse",
         "color": "#FFFFD7",
         "widthConstraint": {
-            "minimum": 50,
-            "maximum": 50
+            "minimum": 60,
+            "maximum": 60
         }
     },
     {
