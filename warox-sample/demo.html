@@ -18,35 +18,36 @@
         <img src="../style/instance.png" alt="Instance Icon" style="max-width:120px;"/><br />
         <img src="../style/class.png" alt="Class Icon" style="max-width:160px;"/><br />
         <img src="../style/concept.png" alt="Concept Icon" style="max-width:160px;"/><br />
-        <img src="../style/agent.png" alt="Agent Icon" style="max-width:75px;"/><br />
         <img src="../style/label.png" alt="Label Icon" style="max-width:160px;"/>
     </div>
 </div>
 <div style="grid-column: 2; grid-row: 1; text-align: center;">
-    <h1>Well Sample Demo</h1>
+    <h1>WAROX Sample Demo</h1>
 </div>
 <div id="mynetwork" style="grid-column: 2; grid-row: 1;"></div>
 <div style="grid-column: 2">
     <h2>Watchpoints</h2>
     <ul>
-        <li>is sample of: <code>Sample</code> &rarr; <code>Site</code> &rarr; <code>Feature</code></li>
-        <li>All <code>Feature</code> instances have <code>Geometry</code> (not shown for simplicity)</li>
-        <li>Instances are classified using codelist terms now in online vocabularies, e.g. the Well's <code>status</code>: <code><a href="http://gswaprez.australiaeast.azurecontainer.io/vocab/bh-status/o">ex:ProducingOilWell</a></li></code>
+        <li><code>Observation</code> <strong>obs x</strong> has a special kind of result; <strong>res x</strong> which is a <code>Description</code></li>
+        <li><code>Result</code> has a "unit" and a value, <code>Description</code> &amp; the text</li>
+        <li>The <code>Site</code> has a <code>Geometry</code> with one or more representations as coordinates or map references etc</li>
+        <li>What is the <code>Site</code> a sample of?</li>
+        <li>The <code>Sample</code> has a method of <a href="http://gswaprez.australiaeast.azurecontainer.io/vocab/samplingmethods/GRAB">GRAB</a> which is the same method listed by GA at <a href="https://vocabs.ardc.edu.au/repository/api/lda/ga/sampling-method/v1-0/resource?uri=http://pid.geoscience.gov.au/def/voc/ga/samplingmethod/grab">http://pid.geoscience.gov.au/def/voc/ga/samplingmethod/grab</a></li>
     </ul>
 </div>
 <div style="grid-column: 2">
     <h2>Example Data</h2>
     <pre>
-ex:C19218
+ex:107891
     a sosa:Sample ;
-    sosa:isSampleOf site:W000835 ;
-    ex:material ex:DitchCutting ;
+    ex:condition ex:DRY ;
+    ex:method <a href="http://gswaprez.australiaeast.azurecontainer.io/vocab/samplingmethods/GRAB">ex:GRAB</a> ;
+    ex:kind ex:OUTC ;
+    sosa:isSampleOf ex:93451
 .
 
-<a href="http://gswaprez.australiaeast.azurecontainer.io/dataset/gswa-dataset/collections/wells/items/W000835">site:W000835</a>
-    a ex:Well , geo:Feature ;
-    rdfs:label "North Rankin 2" ;
-    ex:status <a href="http://gswaprez.australiaeast.azurecontainer.io/vocab/bh-status/o">ex:ProducingOilWell</a> ;
+ex:93451
+    a ex:Site , geo:Feature ;
 .
     </pre>
 </div>
@@ -93,3 +94,4 @@ ex:C19218
 </script>
 </body>
 </html>
+

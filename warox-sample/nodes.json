@@ -1,7 +1,7 @@
 [
     {
-        "id": "http://gswaprez.australiaeast.azurecontainer.io/dataset/gswa-dataset/collections/wells/items/W000835",
-        "label": "W000835",
+        "id": "site",
+        "label": "93459",
         "shape": "ellipse",
         "color": "#FFFFD7",
         "widthConstraint": {
@@ -10,8 +10,28 @@
         }
     },
     {
-        "id": "http://gswaprez.australiaeast.azurecontainer.io/dataset/wa-geofeatures/collections/basins/items/b24",
-        "label": "B24",
+        "id": "siteclass",
+        "label": "Site",
+        "shape": "ellipse",
+        "color": "#E6C62D",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "warox",
+        "label": "WAROX",
+        "shape": "ellipse",
+        "color": "#EF8423",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "geometry",
+        "label": "Geom",
         "shape": "ellipse",
         "color": "#FFFFD7",
         "widthConstraint": {
@@ -20,23 +40,32 @@
         }
     },
     {
-        "id": "subbasin",
-        "label": "B106",
+        "id": "geometryclass",
+        "label": "Geometry",
         "shape": "ellipse",
-        "color": "#FFFFD7",
+        "color": "#E6C62D",
         "widthConstraint": {
-            "minimum": 50,
-            "maximum": 50
+            "minimum": 150,
+            "maximum": 150
         }
     },
     {
         "id": "sample",
-        "label": "C19218",
+        "label": "107891",
         "shape": "ellipse",
         "color": "#FFFFD7",
         "widthConstraint": {
             "minimum": 50,
             "maximum": 50
+        }
+    },
+    {
+        "id": "coordinates",
+        "label": "WKT Coordinates",
+        "shape": "box",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
         }
     },
     {
@@ -50,84 +79,8 @@
         }
     },
     {
-        "id": "wellclass",
-        "label": "Well",
-        "shape": "ellipse",
-        "color": "#E6C62D",
-        "widthConstraint": {
-            "minimum": 150,
-            "maximum": 150
-        }
-    },
-    {
-        "id": "agentclass",
-        "label": "Agent",
-        "shape": "ellipse",
-        "color": "#E6C62D",
-        "widthConstraint": {
-            "minimum": 150,
-            "maximum": 150
-        }
-    },
-    {
-        "id": "featureclass",
-        "label": "Feature",
-        "shape": "ellipse",
-        "color": "#E6C62D",
-        "widthConstraint": {
-            "minimum": 150,
-            "maximum": 150
-        }
-    },
-    {
-        "id": "sampleid",
-        "label": "C19218",
-        "shape": "box",
-        "widthConstraint": {
-            "minimum": 150,
-            "maximum": 150
-        }
-    },
-    {
-        "id": "basinname",
-        "label": "Northern Carnarvon Basin",
-        "shape": "box",
-        "widthConstraint": {
-            "minimum": 150,
-            "maximum": 150
-        }
-    },
-    {
-        "id": "subbasinname",
-        "label": "Dixon Subbasin",
-        "shape": "box",
-        "widthConstraint": {
-            "minimum": 150,
-            "maximum": 150
-        }
-    },
-    {
-        "id": "wellname",
-        "label": "North Rankin 2",
-        "shape": "box",
-        "widthConstraint": {
-            "minimum": 150,
-            "maximum": 150
-        }
-    },
-    {
-        "id": "operator",
-        "label": " ",
-        "shape": "triangle",
-        "color":"#F6C7B2",
-        "widthConstraint": {
-            "minimum": 150,
-            "maximum": 150
-        }
-    },
-    {
-        "id": "operatorname",
-        "label": "Woodside Pty Ltd",
+        "id": "sampleno",
+        "label": "107891",
         "shape": "box",
         "widthConstraint": {
             "minimum": 150,
@@ -136,7 +89,7 @@
     },
     {
         "id": "sampletype",
-        "label": "Slide",
+        "label": "OUTC",
         "shape": "ellipse",
         "color": "#EF8423",
         "widthConstraint": {
@@ -145,8 +98,8 @@
         }
     },
     {
-        "id": "materialtype",
-        "label": "Ditch Cutting",
+        "id": "methodtype",
+        "label": "GRAB",
         "shape": "ellipse",
         "color": "#EF8423",
         "widthConstraint": {
@@ -155,8 +108,8 @@
         }
     },
     {
-        "id": "analysistype",
-        "label": "Petrology",
+        "id": "conditiontype",
+        "label": "DRY",
         "shape": "ellipse",
         "color": "#EF8423",
         "widthConstraint": {
@@ -165,10 +118,59 @@
         }
     },
     {
-        "id": "status",
-        "label": "Producing Oil Well",
+        "id": "observation",
+        "label": "obs x",
         "shape": "ellipse",
-        "color": "#EF8423",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "minimum": 50,
+            "maximum": 50
+        }
+    },
+    {
+        "id": "observationclass",
+        "label": "Observation",
+        "shape": "ellipse",
+        "color": "#E6C62D",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "result",
+        "label": "res x",
+        "shape": "ellipse",
+        "color": "#FFFFD7",
+        "widthConstraint": {
+            "minimum": 50,
+            "maximum": 50
+        }
+    },
+    {
+        "id": "resultclass",
+        "label": "Result",
+        "shape": "ellipse",
+        "color": "#E6C62D",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "subtype",
+        "label": "Description",
+        "shape": "ellipse",
+        "color": "#E6C62D",
+        "widthConstraint": {
+            "minimum": 150,
+            "maximum": 150
+        }
+    },
+    {
+        "id": "resultvalue",
+        "label": "Laminated Dolarenite",
+        "shape": "box",
         "widthConstraint": {
             "minimum": 150,
             "maximum": 150

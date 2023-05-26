@@ -1,0 +1,110 @@
+[
+    {
+        "from": "sample",
+        "to": "sampleclass",
+        "label": "type",
+        "arrows": "to"
+    },
+    {
+        "from": "subtype",
+        "to": "resultclass",
+        "label": "sub class of",
+        "arrows": "to"
+    },
+    {
+        "from": "sample",
+        "to": "sampleno",
+        "label": "sample no.",
+        "arrows": "to"
+    },
+    {
+        "from": "observation",
+        "to": "observationclass",
+        "label": "type",
+        "arrows": "to"
+    },
+    {
+        "from": "sample",
+        "to": "sampleid",
+        "label": "sample ID",
+        "arrows": "to"
+    },
+        {
+        "from": "sample",
+        "to": "sampletype",
+        "label": "kind",
+        "arrows": "to"
+    },
+        {
+        "from": "sample",
+        "to": "methodtype",
+        "label": "method",
+        "arrows": "to"
+    },
+        {
+        "from": "sample",
+        "to": "conditiontype",
+        "label": "condition",
+        "arrows": "to"
+    },
+            {
+        "from": "sample",
+        "to": "site",
+        "label": "is sample of",
+        "arrows": "to"
+    },
+    {
+        "from": "site",
+        "to": "siteclass",
+        "label": "type",
+        "arrows": "to"
+    },
+    {
+        "from": "site",
+        "to": "warox",
+        "label": "subtype",
+        "arrows": "to"
+    },
+    {
+        "from": "observation",
+        "to": "sample",
+        "label": "has feature of interest",
+        "arrows": "to"
+    },
+    {
+        "from": "observation",
+        "to": "result",
+        "label": "has result",
+        "arrows": "to"
+    },
+    {
+        "from": "result",
+        "to": "subtype",
+        "label": "subtype",
+        "arrows": "to"
+    },
+    {
+        "from": "result",
+        "to": "resultvalue",
+        "label": "value",
+        "arrows": "to"
+    },
+    {
+        "from": "site",
+        "to": "geometry",
+        "label": "has geometry",
+        "arrows": "to"
+    },
+    {
+        "from": "geometry",
+        "to": "geometryclass",
+        "label": "type",
+        "arrows": "to"
+    },
+    {
+        "from": "geometry",
+        "to": "coordinates",
+        "label": "representation",
+        "arrows": "to"
+    }
+]
